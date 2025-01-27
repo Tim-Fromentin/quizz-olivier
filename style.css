@@ -34,7 +34,9 @@ body {
 .response:hover {
     background: #e1e1e1;
 }
-
+.response:disabled {
+    color: #474747;
+}
 .response--true {
     background: #4aec4a;
 }
