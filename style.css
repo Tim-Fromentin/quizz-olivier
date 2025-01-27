@@ -4,3 +4,9 @@
 .response--false {
     background: #ef2456;
 }
+#calculScore {
+    opacity: 0;
+}
+.calculScore--active {
+    opacity: 1 !important;
+}

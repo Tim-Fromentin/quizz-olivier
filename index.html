@@ -10,19 +10,29 @@
 <section id="quizz">
     <h1 class="q_title">Quizz Front end</h1>
 
-    <form action="#" class="q_question">
+
         <div class="box_response">
             <h2 class="r_title">Question 1</h2>
-            <button class="response" value="true">True</button>
-            <button class="response" value="false">False</button>
-        </div>
-        <div class="box_response">
-            <h2 class="r_title">Question 1</h2>
-            <button class="response" value="true">True</button>
-            <button class="response" value="false">False</button>
+            <div class="box_choice">
+                <button class="response r_1" value="true">True</button>
+                <button class="response r_2" value="false">False</button>
+            </div>
+
         </div>
 
-    </form>
+        <div class="box_response">
+            <h2 class="r_title">Question 1</h2>
+            <div class="box_choice">
+                <button class="response r_1" value="true">True</button>
+                <button class="response r_2" value="false">False</button>
+            </div>
+
+        </div>
+
+    <input type="submit" value="Calcul score" id="calculScore">
+
+<p>Good answer : <span id="score"></span></p>
+
 </section>
 
 <script src="./app.js"></script>
