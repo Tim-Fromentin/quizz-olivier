@@ -1,12 +1,43 @@
-.response--true {
-    background: #4aec4a;
-}
-.response--false {
-    background: #ef2456;
+body {
+    margin: 0;
+    padding: 0;
 }
 #calculScore {
     opacity: 0;
 }
 .calculScore--active {
     opacity: 1 !important;
+}
+#quizz {
+    font-family: sans-serif;
+    padding: 50px 150px;
+}
+.q_title {
+    font-size: 4rem;
+    text-align: center;
+}
+.r_title {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.box_response {
+    margin-bottom: 50px;
+}
+.response {
+    background: none;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.response:hover {
+    background: #e1e1e1;
+}
+
+.response--true {
+    background: #4aec4a;
+}
+.response--false {
+    background: #ef2456;
 }
