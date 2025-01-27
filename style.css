@@ -24,14 +24,14 @@ body {
 .box_response {
     margin-bottom: 50px;
 }
-.response {
+.response, #resetBtn {
     background: none;
     border: 1px solid #333;
     border-radius: 15px;
     padding: 5px 15px;
     cursor: pointer;
 }
-.response:hover {
+.response:hover, #resetBtn:hover {
     background: #e1e1e1;
 }
 .response:disabled {

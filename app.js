@@ -74,7 +74,7 @@ function  scoreCalcul(element){
     const scoreSum = document.getElementById('score')
     seeScore.addEventListener('click', showScore)
     function showScore(){
-        scoreSum.textContent = score
+        scoreSum.innerHTML = `Score : ${score}`
     }
 }
 
